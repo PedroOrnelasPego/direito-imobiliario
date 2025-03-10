@@ -27,7 +27,7 @@ const Header = () => {
             p={[6, 8]} // Padding menor no mobile
             borderRadius="md"
             boxShadow="xl"
-            maxW={["100%", "600px"]} // Responsivo: 100% no mobile, 600px em telas maiores
+            maxW={["100%", "650px"]} // Responsivo: 100% no mobile, 600px em telas maiores
             textAlign="left"
             ml={[0, "-50px"]} // Mantém deslocamento apenas em telas grandes
           >
@@ -36,15 +36,14 @@ const Header = () => {
               <Image src={logo} alt="Logo" maxW={["120px", "170px"]} />
               <Heading
                 as="h2"
-                fontSize={["24px", "38px"]}
+                fontSize={["24px", "33px"]}
                 color="gray.800"
                 fontFamily="'The Youngest Serif', serif"
                 fontWeight="400"
                 lineHeight="1.3"
               >
-                ASSIS COSTA <br />
-                FERNANDES <br />
-                VASCONCELOS
+                LÍLIAN VASCONCELOS <br />
+                MARINA SANTOS COSTA <br />
               </Heading>
             </Flex>
 
