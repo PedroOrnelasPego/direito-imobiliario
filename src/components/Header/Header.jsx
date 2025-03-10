@@ -42,8 +42,8 @@ const Header = () => {
                 fontWeight="400"
                 lineHeight="1.3"
               >
-                LÍLIAN VASCONCELOS <br />
-                MARINA SANTOS COSTA <br />
+                Dra. Lílian Vasconcelos <br />
+                Dra. Marina Santos Costa <br />
               </Heading>
             </Flex>
 
