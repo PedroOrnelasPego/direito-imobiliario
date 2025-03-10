@@ -30,7 +30,7 @@ const Products = () => {
             mb={4}
             fontFamily="'The Youngest Serif', serif"
           >
-            O escritório ASSIS COSTA FERNANDES VASCONCELOS & ADVOGADOS possui
+            O escritório JOSIMAR BEZERRA ADVOGADOS possui
             equipe jurídica experiente na prestação de assessoria preventiva e
             contenciosa, atuando sempre com honestidade e seriedade em ampla
             variedade de temas imobiliários.

@@ -46,7 +46,7 @@ const Location = () => {
               mb={4}
               fontFamily="'The Youngest Serif', serif"
             >
-              O escritório ASSIS COSTA FERNANDES VASCONCELOS & ADVOGADOS possui
+              O escritório JOSIMAR BEZERRA ADVOGADOS possui
               advogados de inventário experientes em processos de inventário
               extrajudicial ou judicial, com amplo conhecimento sobre a
               legislação e as recentes decisões de Tribunais Superiores.
