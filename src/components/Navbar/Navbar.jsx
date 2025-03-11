@@ -98,7 +98,8 @@ const Navbar = () => {
             size="lg"
             bg="#878787"
             color="white"
-            _hover={{ bg: "#636363" }} // Efeito hover
+            _hover={{ bg: "#636363" }}
+            onClick={() => window.open("https://wa.me/5531987628094", "_blank")}
           >
             Fale com Especialista
           </Button>
@@ -185,10 +186,20 @@ const Navbar = () => {
               Contato
             </Link>
             <Button
-              size="sm"
-              bg="#D3B26A"
+              size="lg"
+              bg="#878787"
               color="white"
-              _hover={{ bg: "#b79c5e" }} // Efeito hover
+              _hover={{ bg: "#636363" }}
+              leftIcon={
+                <Image
+                  src="https://img.icons8.com/material-outlined/24/FFFFFF/whatsapp--v1.png"
+                  alt="WhatsApp"
+                  boxSize={6}
+                />
+              }
+              onClick={() =>
+                window.open("https://wa.me/5531987628094", "_blank")
+              }
             >
               Fale com Especialista
             </Button>
