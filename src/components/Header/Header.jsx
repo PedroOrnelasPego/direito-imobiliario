@@ -102,7 +102,7 @@ const Header = () => {
                   />
                 }
                 onClick={() =>
-                  window.open("https://wa.me/5531987628094", "_blank")
+                  window.open("https://wa.me/5531987533343", "_blank")
                 }
               >
                 Fale com Especialista

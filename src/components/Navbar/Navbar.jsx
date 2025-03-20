@@ -99,7 +99,7 @@ const Navbar = () => {
             bg="#878787"
             color="white"
             _hover={{ bg: "#636363" }}
-            onClick={() => window.open("https://wa.me/5531987628094", "_blank")}
+            onClick={() => window.open("https://wa.me/5531987533343", "_blank")}
           >
             Fale com Especialista
           </Button>
@@ -114,7 +114,7 @@ const Navbar = () => {
           onClick={isOpen ? onClose : onOpen}
         />
       </Flex>
-
+ 
       {/* Itens do menu para telas pequenas */}
       {isOpen ? (
         <Box pb={4} display={{ md: "none" }}>
@@ -198,7 +198,7 @@ const Navbar = () => {
                 />
               }
               onClick={() =>
-                window.open("https://wa.me/5531987628094", "_blank")
+                window.open("https://wa.me/5531987533343", "_blank")
               }
             >
               Fale com Especialista

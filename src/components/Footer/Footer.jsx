@@ -17,7 +17,7 @@ const Footer = () => {
             <Heading as="h3" size="md" mb={4}>
               CONTATOS
             </Heading>
-            <Text fontSize="md">(31) 98762-8094</Text>
+            <Text fontSize="md">(31) 98753-3343</Text>
           </Box>
 
           {/* Horários */}
