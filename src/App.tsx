@@ -490,10 +490,11 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
-        <AdBanner label="Patrocínio" />
+        <AdBanner label="Patrocínio" slot="6663473354" />
         <About />
         <PracticeAreas />
-        <AdBanner />
+        <div id="áreas-de-atuação" /> {/* Ancora para o link do botão */}
+        <AdBanner slot="6663473354" />
         <CTA />
       </main>
       <Footer />
