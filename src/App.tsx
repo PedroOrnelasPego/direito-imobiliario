@@ -53,6 +53,8 @@ const Navbar = () => (
       href="https://wa.me/5531987533343" 
       target="_blank" 
       rel="noopener noreferrer"
+      aria-label="Falar com um advogado no WhatsApp"
+      id="btn-navbar-whatsapp"
       className="flex items-center gap-2 bg-primary hover:bg-blue-700 text-white px-5 py-2.5 rounded-lg text-sm font-bold transition-all shadow-sm"
     >
       <WhatsAppIcon className="w-4 h-4" />
@@ -130,6 +132,8 @@ const Hero = () => {
             href="https://wa.me/5531987533343"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Iniciar atendimento via WhatsApp"
+            id="btn-hero-whatsapp"
             className="flex items-center justify-center gap-3 bg-accent-gold hover:bg-[#c4a030] text-slate-900 px-8 py-4 rounded-xl text-base font-bold transition-all shadow-xl hover:scale-105 active:scale-95"
           >
             <WhatsAppIcon className="w-5 h-5" />
@@ -137,6 +141,7 @@ const Hero = () => {
           </a>
           <a 
             href="#áreas-de-atuação"
+            aria-label="Navegar para seções de áreas de atuação"
             className="flex items-center justify-center gap-3 bg-white/5 hover:bg-white/10 text-white px-8 py-4 rounded-xl text-base font-bold transition-all border border-white/20 backdrop-blur-sm"
           >
             Nossas Áreas de Atuação
@@ -148,6 +153,7 @@ const Hero = () => {
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/30"
+        aria-hidden="true"
       >
         <div className="w-6 h-10 border-2 border-current rounded-full flex justify-center p-1">
           <motion.div 
@@ -213,8 +219,9 @@ const About = () => {
             >
               <img 
                 src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&q=80&w=1000" 
-                alt="Escritório Josimar Bezerra"
+                alt="Equipe reunida em reunião estratégica no escritório Josimar Bezerra"
                 className="w-full h-[500px] object-cover"
+                loading="lazy"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent" />
@@ -306,6 +313,8 @@ const CTA = () => (
               href="https://wa.me/5531987533343"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Chamar Josimar Bezerra no WhatsApp"
+              id="btn-cta-whatsapp"
               className="flex items-center justify-center gap-3 bg-accent-gold hover:bg-[#c4a030] text-slate-900 px-10 py-5 rounded-xl text-lg font-bold transition-all shadow-lg hover:scale-105"
             >
               <WhatsAppIcon className="w-6 h-6" />
@@ -344,11 +353,15 @@ const Footer = () => (
               href="https://www.instagram.com/josimarbezerraadvogados_/" 
               target="_blank" 
               rel="noopener noreferrer"
+              aria-label="Siga-nos no Instagram"
               className="w-10 h-10 rounded-full bg-slate-800/50 flex items-center justify-center hover:bg-primary transition-all text-white border border-slate-700 hover:border-primary"
             >
               <Instagram className="w-5 h-5" />
             </a>
-            <button className="w-10 h-10 rounded-full bg-slate-800/50 flex items-center justify-center hover:bg-primary transition-all text-white border border-slate-700 hover:border-primary">
+            <button 
+              aria-label="Compartilhar este site"
+              className="w-10 h-10 rounded-full bg-slate-800/50 flex items-center justify-center hover:bg-primary transition-all text-white border border-slate-700 hover:border-primary"
+            >
               <Share2 className="w-5 h-5" />
             </button>
           </div>
@@ -493,7 +506,6 @@ export default function App() {
         <AdBanner label="Patrocínio" slot="6663473354" />
         <About />
         <PracticeAreas />
-        <div id="áreas-de-atuação" /> {/* Ancora para o link do botão */}
         <AdBanner slot="6663473354" />
         <CTA />
       </main>

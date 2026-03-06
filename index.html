@@ -1,10 +1,96 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Josimar Bezerra Advogados | Direito Imobiliário e Sucessões</title>
-    <meta name="description" content="Escritório de advocacia especializado em Direito Imobiliário e Sucessões em Belo Horizonte. Josimar Bezerra Advogados." />
+    <meta name="theme-color" content="#101622" />
+    <meta name="description" content="Escritório de advocacia especializado em Direito Imobiliário e Sucessões em Belo Horizonte. Josimar Bezerra Advogados: Proteja seu patrimônio e legado." />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    
+    <!-- SEO & Social Media Meta Tags -->
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Josimar Bezerra Advogados" />
+    <meta property="og:title" content="Josimar Bezerra Advogados | Direito Imobiliário e Sucessões" />
+    <meta property="og:description" content="Especialistas em Direito Imobiliário e Sucessões em Belo Horizonte. Blindagem patrimonial e segurança jurídica." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/favicon.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Josimar Bezerra Advogados | Direito Imobiliário" />
+    <meta name="twitter:description" content="Especialistas em Direito Imobiliário e Sucessões em Belo Horizonte." />
+    
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVYWNTNY7V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MVYWNTNY7V');
+
+      // Tracking Global de Cliques em Botões
+      document.addEventListener('click', function(e) {
+        const target = e.target.closest('button, a');
+        if (target) {
+          const text = target.innerText || target.getAttribute('aria-label') || 'Sem texto';
+          gtag('event', 'clicou_no_botao_trackeado_veritas', {
+            'button_text': text.trim(),
+            'link_url': target.href || 'Botão sem link',
+            'element_id': target.id || 'Sem ID'
+          });
+        }
+      }, true);
+    </script>
+
+    <!-- JSON-LD Structured Data for LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Josimar Bezerra Advogados",
+      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=2000",
+      "url": "https://josimarbezerra.adv.br",
+      "telephone": "+5531987533343",
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua das Canoas, 757",
+          "addressLocality": "Belo Horizonte",
+          "addressRegion": "MG",
+          "postalCode": "30580-040",
+          "addressCountry": "BR"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "Avenida Raja Gabaglia, 1000, Salas 1103 e 1104",
+          "addressLocality": "Belo Horizonte",
+          "addressRegion": "MG",
+          "postalCode": "30380-090",
+          "addressCountry": "BR"
+        }
+      ],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -19.9678, 
+        "longitude": -43.9672
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.instagram.com/josimarbezerraadvogados_/"
+      ]
+    }
+    </script>
+
     <!-- Google AdSense Global Script -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5471973562089914" crossorigin="anonymous"></script>
   </head>

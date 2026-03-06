@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://josimarbezerra.adv.br/sitemap.xml
